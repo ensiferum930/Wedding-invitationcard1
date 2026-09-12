@@ -1222,11 +1222,11 @@
       body.removeAttribute('data-bride-display-name');
       document.title = 'James & Serin — Wedding Invitation';
     } else {
-      body.setAttribute('data-groom-name', 'Aqib');
-      body.setAttribute('data-bride-name', 'Romaisa');
+      body.setAttribute('data-groom-name', 'Arshad');
+      body.setAttribute('data-bride-name', 'Farah');
       body.removeAttribute('data-groom-display-name');
       body.removeAttribute('data-bride-display-name');
-      document.title = 'Aqib & Romaisa — Wedding Invitation';
+      document.title = 'Arshad & Farah — Wedding Invitation';
     }
 
     setAudioSource(isGeneral ? SONG_GENERAL : SONG_MUSLIM);
